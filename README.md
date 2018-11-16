@@ -13,7 +13,9 @@ It comes integrated with Travis CI, so continuous integration comes out of the b
 - Activate and trigger a build on Travis
 
 ## Imports
-- Import the below into your JUnit-Test \nimport static org.junit.Assert.*; \n import org.junit.Test;
+- Import the below into your JUnit-Test
+- import static org.junit.Assert.*;
+- import org.junit.Test;
 ## How to link your build status
 - Go to Travis & chose your repo
 - Click on the "build passing" button
