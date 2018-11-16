@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.com/JLFrick/java-travisci-template.svg?branch=master)](https://travis-ci.com/JLFrick/java-travisci-template)
 # Java TravisCi Template
 
 It comes integrated with Travis CI, so continuous integration comes out of the box.
@@ -13,7 +13,11 @@ It comes integrated with Travis CI, so continuous integration comes out of the b
 - Activate and trigger a build on Travis
 
 ## Imports
-- import the below into your JUnit-Test
+- Import the below into your JUnit-Test
 	import static org.junit.Assert.*;
 	import org.junit.Test;
-
+## How to link your build status
+- Go to Travis & chose your repo
+- Click on the "build passing" button
+- Change the "Image URL" to "Markdown"
+- Copy and Paste the link into your Readme-file
